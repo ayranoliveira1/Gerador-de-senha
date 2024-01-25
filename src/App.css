@@ -1,0 +1,64 @@
+#root {
+   margin: 0 auto;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #caedf7;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+   width: 60%;
+   max-width: 400px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   border-radius: 15px;
+   -webkit-box-shadow: 0px 1px 6px 2px rgba(112, 142, 161, 0.96);
+   -moz-box-shadow: 0px 1px 6px 2px rgba(105, 138, 159, 0.96);
+   box-shadow: 0px 1px 6px 2px rgba(94, 138, 166, 0.96);
+}
+
+.container h1 {
+   font-size: 22px;
+   margin-top: 50px;
+   font-weight: 900;
+}
+
+.senha {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.senha input {
+   padding: 4px 10px;
+   margin: 0 15px 12px 15px;
+   border-radius: 10px;
+}
+
+.senha label {
+   font-size: 12px;
+   margin-left: 15px;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.button input {
+   padding: 5px 50px;
+}
+
+.msg {
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
